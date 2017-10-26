@@ -71,10 +71,6 @@ nav ul li a:hover{
 }
 /*--- End Navigation --*/
 
-.banner{
-  width: 100%;
-  height: auto;
-}
 #inner-banner{
   background: url(../img/greja_pugeran.jpg) center no-repeat;
   background-size: cover;
@@ -110,12 +106,6 @@ nav ul li a:hover{
 }
 /*--- End Banner --*/
 
-.news-wrapper{
-  width: 100%;
-  height: 100%;
-  background-color: #F5F5F5;
-  padding: 0px auto;
-}
 #news-box{
   max-width: 1500px;
   height: 100%;
@@ -154,9 +144,6 @@ nav ul li a:hover{
 }
 /*--- End News --*/
 
-.mass-schedule{
-  width: 100%;
-}
 #title-schedule{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -194,8 +181,18 @@ nav ul li a:hover{
 #schedule-table tr{
   height: 40px;
 }
-
 /*--- End Mass Schedule --*/
+
+#profile-wrapper{
+
+}
+#profile-picture-wrapper{
+
+}
+#profile-contact-wrapper{
+  
+}
+/*--- End Profile --*/
 
 .copyright{
   width: 100%;

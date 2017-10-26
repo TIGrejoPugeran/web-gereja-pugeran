@@ -5,14 +5,23 @@
     <title style="font-family: 'Montserrat', sans-serif;">Gereja Hati Kudus Tuhan Yesus Pugeran</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
   </head>
   <body>
-    <div w3-include-html="./components/header.html"></div>
-    <script>w3.includeHTML();</script>
+    <header>
+      <div id="inner-header">
+        <a href="index.html" id="title">Gereja Hati Kudus Tuhan Yesus Pugeran</a>
+        <nav>
+          <!-- <a href="#" id="menu-icon"></a> -->
+          <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="../contact/">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <!-- END HEADER -->
 
-    <section class="banner">
+    <section id="banner">
       <div id="inner-banner">
         <div id="inside-inner-banner">
           <p id="text-banner">"Mintalah, maka akan diberikan kepadamu; carilah, maka kamu akan mendapat; ketoklah, maka pintu akan dibukakan bagimu.
@@ -27,7 +36,7 @@
     </section>
     <!-- END BANNER -->
 
-    <section class="news-wrapper">
+    <section id="news-wrapper">
       <div id="news-box">
         <div id="news-title">
           Pengumuman Paroki
@@ -56,7 +65,7 @@
     </section>
     <!-- END THREE COLUMNS -->
 
-    <section class="mass-schedule">
+    <section id="mass-schedule">
       <div id="title-schedule">
         Jadwal Misa xx Des - xx Des 2017
       </div>
@@ -135,7 +144,11 @@
     </section>
     <!-- END MASS SCHEDULE -->
 
-    <div w3-include-html="./components/footer.html"></div>
+    <footer class="copyright">
+      <div id="inner-footer">
+        <p>&copy; GHKY Pugeran</p>
+      </div>
+    </footer>
     <!-- END FOOTER -->
   </body>
 </html>
