@@ -184,15 +184,82 @@ nav ul li a:hover{
 /*--- End Mass Schedule --*/
 
 #profile-wrapper{
-
+  max-width: 1500px;
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  text-align: right;
+  overflow: auto;
 }
 #profile-picture-wrapper{
-
+  width: 100%;
+  height: 100%;
+}
+#profile-image{
+  width: 1200px;
+  height: 600px;
+  border: 10px solid #F5F5F5;
 }
 #profile-contact-wrapper{
-  
+  position: relative;
+  margin-top: 300px;
+  margin-left: 20px;
+  width: 100%;
+}
+#profile-contact{
+  width: 600px;
+  height: auto;
+  border: 5px solid white;
+  background-color: #FFFACD	;
+  position: absolute;
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 200%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+#contact-title{
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 150%;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+#contact-table{
+  width: 100%;
+  text-align: left;
+  vertical-align: bottom;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#contact-table tr{
+  height: 50px;
+  vertical-align: top;
+}
+.contact-column-1{
+  width: 80px;
+}
+.contact-column-2{
+  width: 20px;
+}
+.contact-column-3{
+  width: auto;
 }
 /*--- End Profile --*/
+
+#map-container{
+  max-width: 1500px;
+  width: 100%;
+  height: 700px;
+  box-sizing: border-box;
+  border: 5px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*--- End Map --*/
 
 .copyright{
   width: 100%;
