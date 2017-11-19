@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #2C2825;
+  background-color: #FFFFE0;
+}
+
+/* Navigation Bar CSS*/
+.max-width-layout{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav-bg-color{
+  background-color: #2C2825;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 0;
+  border-radius: 0;
+}
+.nav-color{
+  font-family: 'Lato', sans-serif;
+  color: #DABE7B !important;
+  font-size: 150%;
+}
+.bottom-border{
+  background-color: #E4C686;
+  height: 5px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.main-container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Home CSS*/
+.home-container{
+  width: 100%;
+  height: 750px;
+  background-image: url("../img/home_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: auto;
+}
+.jumbotron{
+  max-width: 1300px;
+  background: none;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lato', sans-serif;
+  color: #FBFDFC;
+  text-shadow: 2px 2px 20px #D0BA70;
+  padding-right: 150px;
+}
+
+/* Info Schedule CSS*/
+.schedule-container{
+  max-width: 1000px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+.schedule-title{
+  padding-top: 30px;
+}
+.schedule-container .row{
+  text-align: center;
+}
+.schedule-container .col-md-10{
+  text-align: left;
+}
+.schedule-container .col-md-10 h1{
+  font-weight: bold;
+  font-size: 270%;
+}
+.schedule-container .col-md-1{
+  align-items: right;
+  margin: auto;
+}
+.schedule-container .col-md-4{
+  text-align: left;
+}
+.schedule-container .col-md-4 h2{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 200%;
+  color: #70290A;
+  background-color: #E8D586;
+}
+.schedule-container .col-md-4 h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 150%;
+  color: #C6AC7E;
+  margin-top: 20px;
+}
+.schedule-container .col-md-4 h3{
+  font-family: 'Lato', sans-serif;
+  font-size: 175%;
+  margin-top: 10px;
+  color: #9E360E;
+}
+.schedule-container .col-md-4 .sunday-schedule{
+  margin-top: 0px;
+}
+.schedule-container .col-md-8 h2{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 200%;
+  color: #70290A;
+  background-color: #E8D586;
+}
+
+/* Contact Us CSS*/
+.centered-container{
+  text-align: center;
+}
+.centered-container h4{
+  font-size: 200%;
+  font-weight: bold;
+}
+.centered-container h2{
+  font-size: 300%;
+  padding: 20px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+.centered-container .row{
+  font-size: 150%;
+}
+.centered-container .row .col-md-1{
+  width: auto;
+  padding-left: 25px;
+}
+/* WebKit and Opera browsers */
+@-webkit-keyframes spinner {
+  from { -webkit-transform: rotateY(0deg);    }
+  to   { -webkit-transform: rotateY(-360deg); }
+}
+
+/* all other browsers */
+@keyframes spinner {
+  from {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+  }
+}
+.spinner{
+  -webkit-animation-name: spinner;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+
+  animation-name: spinner;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.centered-container .row .col-md-2{
+  text-align: left;
+  font-weight: bold;
+  padding-left: 0;
+}
+.contact-align-desc {
+  text-align: left;
+}
+.map-container{
+  box-sizing: border-box;
+  border: 3px solid #DEC899;
+  margin: 20px;
+}
+#map{
+  height: 400px;
+}
