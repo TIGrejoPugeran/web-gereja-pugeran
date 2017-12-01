@@ -1,181 +1,1012 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Gereja Pugeran</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Gereja Pugeran</title>
 
-    <!-- Custom CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Font Awesome CSS -->
-    <link href="css/font-awesome.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/custom.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- Font Awesome CSS -->
+  <link href="css/font-awesome.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Map JS -->
-    <script src="./js/init-map.js" defer></script>
-  </head>
-  <body>
-    <nav class="navbar navbar-default nav-bg-color navbar-fixed-top">
-      <div class="container-fluid max-width-layout">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Map JS -->
+  <script src="./js/init-map.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-default nav-bg-color navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header max-width-layout">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home" class="nav-color">Home</a></li>
-            <li><a href="#contact" class="nav-color">Contact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-      <div class="bottom-border"></div>
-    </nav>
-
-
-    <section id="home">
-      <div class="home-container">
-        <div class="jumbotron">
-          <h3>Welcome To</h3>
-          <h1>Catholic Church</h1>
-          <h1>Hati Kudus Tuhan Yesus Pugeran</h1>
-        </div>
       </div>
-    </section>
 
-    <section id="info-schedule">
-      <div class="schedule-container">
-        <div class="row schedule-title">
-          <div class="col-md-10"><h1>Mass Schedule</h1></div>
-          <div class="col-md-1"><i class="fa fa-car fa-lg"></i></div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Monday</h2>
-            <h4>05.30 A.M.</h4>
-            <h3>Bahasa</h3>
-          </div>
-          <div class="col-md-4">
-            <h2>Tuesday</h2>
-            <h4>05.30 A.M.</h4>
-            <h3>Bahasa</h3>
-          </div>
-          <div class="col-md-4">
-            <h2>Wednesday</h2>
-            <h4>05.30 A.M.</h4>
-            <h3>Bahasa</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Thursday</h2>
-            <h4>05.30 A.M.</h4>
-            <h3>Bahasa Indonesia</h3>
-          </div>
-          <div class="col-md-4">
-            <h2>Friday</h2>
-            <h4>05.30 A.M.</h4>
-            <h3>Bahasa Indonesia</h3>
-          </div>
-          <div class="col-md-4">
-            <h2>Saturday</h2>
-            <h4>05.30 A.M.</h4>
-            <h3>Bahasa Indonesia</h3>
-            <h4>05.00 P.M.</h4>
-            <h3>Bahasa Indonesia</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <h2>Sunday</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-md-offset-2">
-            <h4 class="sunday-schedule">06.00 A.M.</h4>
-          </div>
-          <div class="col-md-4 sunday-schedule">
-            <h3 class="sunday-schedule">Bahasa Jawa</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-md-offset-2">
-            <h4>07.30 A.M.</h4>
-          </div>
-          <div class="col-md-4">
-            <h3>Bahasa Indonesia</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-md-offset-2">
-            <h4>04.30 P.M.</h4>
-          </div>
-          <div class="col-md-4">
-            <h3>Bahasa Indonesia</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-md-offset-2">
-            <h4>06.00 P.M.</h4>
-          </div>
-          <div class="col-md-4">
-            <h3>Bahasa Indonesia</h3>
-          </div>
-        </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse max-width-layout" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home" class="nav-color">Beranda</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle nav-color" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Info <span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-bgcolor">
+              <li><a href="#info-schedule" class="nav-color">Jadwal Misa</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact" class="nav-color">Kontak Kami</a></li>
+        </ul>
       </div>
-    </section>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+    <div class="bottom-border"></div>
+  </nav>
 
-    <section id="contact">
-      <div class="main-container">
-        <div class="centered-container">
-          <h4>Need more information about our church?</h4>
-          <h2>Contact Us</h2>
-          <div class="row">
-            <div class="col-md-1"><span class="glyphicon glyphicon-map-marker spinner" aria-hidden="true"></span></div>
-            <div class="col-md-2">Our Address</div>
-            <div class="col-md-9 contact-align-desc">
-              <p>Jl. Suryaden No. 63, Gedongkiwo, Mantrijeron, Suryodiningratan, Mantrijeron, Kota Yogyakarta, Daerah Istimewa Yogyakarta, 55142</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-1"><span class="glyphicon glyphicon-phone-alt spinner" aria-hidden="true"></span></div>
-            <div class="col-md-2">Our Phone No.</div>
-            <div class="col-md-9 contact-align-desc">
-              <p>(0274) 372295</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="map-container">
-              <div id="map"/>
-            </div>
-          </div>
-        </div>
+
+  <section id="home">
+    <div class="home-container">
+      <div class="jumbotron">
+        <h1>Gereja Katolik</h1>
+        <h1>Hati Kudus Tuhan Yesus Pugeran</h1>
+      </div>
     </div>
   </section>
 
+  <section id="info-schedule">
+    <div class="container-fluid schedule-container">
+      <div class="row">
+
+        <div class="col-md-8 title-container">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-2 col-md-1 right-alignment"><i class="fa fa-calendar icon-size fa-3x"></i></div>
+              <div class="col-xs-4 col-md-4">
+                <h1 class="schedule-title">Jadwal Misa</h1>
+              </div>
+              <div class="col-xs-6 col-md-6 schedule-sub-title right-alignment">04 Des 2017 - 10 Des 2017</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 day-wrapper">
+          <div class="container-fluid">
+            <div class="row">
+
+              <div class="col-md-4 col-xs-4">
+                <div class="date">
+                  04
+                </div>
+                <div class="month">
+                  Desember
+                </div>
+                <div class="year">
+                  2017
+                </div>
+              </div>
+
+              <div class="col-md-8 col-xs-8 detail-schedule-cont">
+                <div class="day">
+                  Senin
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Pukul
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        05.30 WIB
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row" >
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Bahasa
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Indonesia
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Lagu
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Kidung Adi
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Instrumen
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Organ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Selasa - Kamis -->
+      <div class="row">
+
+        <div class="col-md-4 day-wrapper">
+          <div class="container-fluid">
+            <div class="row">
+
+              <div class="col-md-4 col-xs-4">
+                <div class="date">
+                  05
+                </div>
+                <div class="month">
+                  Desember
+                </div>
+                <div class="year">
+                  2017
+                </div>
+              </div>
+
+              <div class="col-md-8 col-xs-8 detail-schedule-cont">
+                <div class="day">
+                  Selasa
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Pukul
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        05.30 WIB
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Bahasa
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Jawa
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Lagu
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Kidung Adi
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Instrumen
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Organ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 day-wrapper">
+          <div class="container-fluid">
+            <div class="row">
+
+              <div class="col-md-4 col-xs-4">
+                <div class="date">
+                  06
+                </div>
+                <div class="month">
+                  Desember
+                </div>
+                <div class="year">
+                  2017
+                </div>
+              </div>
+
+              <div class="col-md-8 col-xs-8 detail-schedule-cont">
+                <div class="day">
+                  Rabu
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Pukul
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        05.30 WIB
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Bahasa
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Indonesia
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Lagu
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Madah Bakti
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Instrumen
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Organ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 day-wrapper">
+          <div class="container-fluid">
+            <div class="row">
+
+              <div class="col-md-4 col-xs-4">
+                <div class="date">
+                  07
+                </div>
+                <div class="month">
+                  Desember
+                </div>
+                <div class="year">
+                  2017
+                </div>
+              </div>
+
+              <div class="col-md-8 col-xs-8 detail-schedule-cont">
+                <div class="day">
+                  Kamis
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Pukul
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        05.30 WIB
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Bahasa
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Indonesia
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Lagu
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Madah Bakti
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Instrumen
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Organ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Jumat - Minggu -->
+      <div class="row">
+
+        <div class="col-md-4 day-wrapper">
+          <div class="container-fluid">
+            <div class="row">
+
+              <div class="col-md-4 col-xs-4">
+                <div class="date">
+                  08
+                </div>
+                <div class="month">
+                  Desember
+                </div>
+                <div class="year">
+                  2017
+                </div>
+              </div>
+
+              <div class="col-md-8 col-xs-8 detail-schedule-cont">
+                <div class="day">
+                  Jumat
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Pukul
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        05.30 WIB
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Bahasa
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Indonesia
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Lagu
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Puji Syukur
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Instrumen
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Organ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 day-wrapper">
+          <div class="container-fluid">
+            <div class="row">
+
+              <div class="col-md-4 col-xs-4">
+                <div class="date">
+                  09
+                </div>
+                <div class="month">
+                  Desember
+                </div>
+                <div class="year">
+                  2017
+                </div>
+              </div>
+
+              <div class="col-md-8 col-xs-8 detail-schedule-cont">
+                <div class="day">
+                  Sabtu
+                </div>
+
+                <div class="mass-desc">
+                  Misa Sabtu Pagi
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Pukul
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        05.30 WIB
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Bahasa
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Indonesia
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Lagu
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Puji Syukur
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Instrumen
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Organ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mass-desc-2">
+                  Misa Sabtu Sore
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Pukul
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        17.00 WIB
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Bahasa
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Indonesia
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Lagu
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Madah Bakti
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Instrumen
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Organ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 day-wrapper">
+          <div class="container-fluid">
+            <div class="row">
+
+              <div class="col-md-4 col-xs-4">
+                <div class="date">
+                  10
+                </div>
+                <div class="month">
+                  Desember
+                </div>
+                <div class="year">
+                  2017
+                </div>
+              </div>
+
+              <div class="col-md-8 col-xs-8 detail-schedule-cont">
+                <div class="day">
+                  Minggu
+                </div>
+
+                <div class="mass-desc">
+                  Misa Minggu I
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Pukul
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        06.00 WIB
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Bahasa
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Jawa
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Lagu
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Madah Bakti
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Instrumen
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Organ/Gamelan
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mass-desc-2">
+                  Misa Minggu II
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Pukul
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        07.30 WIB
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Bahasa
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Indonesia
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Lagu
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Madah Bakti
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Instrumen
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Organ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mass-desc-2">
+                  Misa Minggu III
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Pukul
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        16.30 WIB
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Bahasa
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Indonesia
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Lagu
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Puji Syukur
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Instrumen
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Organ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mass-desc-2">
+                  Misa Minggu IV
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Pukul
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        18.00 WIB
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Bahasa
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Indonesia
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Lagu
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Puji Syukur
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                      <div class="property">
+                        Instrumen
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                      <div class="value">
+                        Organ
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
 
 
+    </div>
+  </section>
 
-  </body>
+  <section id="contact">
+    <div class="main-container container">
+      <div class="centered-container">
+        <h4>Butuh informasi lain mengenai gereja kami?</h4>
+        <h2>Hubungi Kami</h2>
+        <div class="row">
+          <div class="col-md-1 col-xs-1"><span class="glyphicon glyphicon-map-marker spinner"></span></div>
+          <div class="col-md-2 col-xs-11">Alamat</div>
+          <div class="col-md-9 col-xs-12 contact-align-desc">
+            <p>Jl. Suryaden No. 63, Gedongkiwo, Mantrijeron, Suryodiningratan, Mantrijeron, Kota Yogyakarta, Daerah Istimewa Yogyakarta, 55142</p>
+          </div>
+        </div>
+        <br/>
+        <div class="row">
+          <div class="col-md-1 col-xs-1"><span class="glyphicon glyphicon-phone-alt spinner"></span></div>
+          <div class="col-md-2 col-xs-11">No. Telepon</div>
+          <div class="col-md-9 col-xs-12 contact-align-desc">
+            <p>(0274) 372295</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="map-container">
+            <div id="map" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="footer-container">
+      <div class="footer">
+        <p>Copyright &copy;GHKY Pugeran</p>
+      </div>
+    </diV>
+  </section>
+</body>
+
 </html>
