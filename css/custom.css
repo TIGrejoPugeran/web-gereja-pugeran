@@ -90,7 +90,7 @@ body, html {
   padding-top: 10px;
   padding-right: 0;
   margin-right: 0;
-  color: #FDFEF8;
+  color: #E4C686;
   font-size: 200%;
 }
 
@@ -123,8 +123,8 @@ body, html {
   width: 100%;
   height: 100%;
   font-size: 250%;
-  color: #FDFEF8;
   margin-top: 15px;
+  color: #E4C686;
 }
 
 .date-wrapper {
@@ -153,7 +153,6 @@ body, html {
 }
 
 .day {
-  font-weight: bold;
   color: #E4C686;
   font-size: 150%;
   margin-bottom: 7px;
@@ -190,6 +189,26 @@ body, html {
   font-size: 95%;
 }
 
+#stasi-wrapper {
+  padding: 10px;
+}
+
+.stasi-title-font {
+  color: #E4C686;
+  font-size: 160%;
+  font-weight: bold;
+}
+
+.stasi-container {
+  padding: 10px;
+}
+
+.stasi-title-container {
+  background-color: brown;
+  padding: 3px 10px 3px 10px;
+  margin-bottom: 10px;
+}
+
 /* Info Paroki Pengumuman CSS */
 
 .announcement-title-container {
@@ -203,12 +222,14 @@ body, html {
 
 .announcement-background {
   width: 100%;
-  height: 700px;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-image: url("../img/announcement_background.png");
   margin-bottom: 50px;
+  padding-bottom: 40px;
+
 }
 
 .announcement-container {
@@ -220,11 +241,14 @@ body, html {
 }
 
 .event-paroki-container {
-  background: rgba(0, 0, 0, 0.3);
   border-radius: 1px;
-  margin-top: 30px;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dark-transparent-background {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
 }
 
 .event {
@@ -290,17 +314,16 @@ body, html {
 }
 
 .others-container {
-  background: rgba(0, 0, 0, 0.3);
   border-radius: 1px;
-  margin-top: 30px;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .others {
   background: rgba(255, 255, 204, 1);
   border-radius: 1px;
   padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .others-ii {
@@ -308,6 +331,7 @@ body, html {
   border-radius: 1px;
   padding-top: 12px;
   padding-left: 15px;
+  padding-bottom: 12px;
 }
 
 .others-no-container {
@@ -317,8 +341,6 @@ body, html {
   background-color: rgba(123, 111, 59, 1);
   padding-top: 0;
   box-shadow: 0 0 5px #2C2825;
-  flex: 1;
-  flex-direction: column;
 }
 
 .others-no {
@@ -335,6 +357,20 @@ body, html {
   font-size: 200%;
   font-weight: bold;
   text-align: center;
+}
+
+.others-no-iv {
+  margin-top: 10px;
+  margin-left: -2px;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wedding-anncouncement-container {
+  background: rgba(255, 255, 204, 1);
+  padding: 10px;
+  margin-top: -30px;
 }
 
 /* Contact Us CSS*/
@@ -454,12 +490,10 @@ body, html {
     margin-left: 80px;
     padding-top: 70px;
   }
-  .title-container{
-    margin-left: 0px;
-  }
   .schedule-title {
-    margin-top: 23px;
-    font-size: 150%;
+    margin-top: 15px;
+    font-size: 200%;
+    color: #E4C686;
   }
   .schedule-sub-title {
     padding-top: 10px;
@@ -468,11 +502,15 @@ body, html {
     height: 100%;
     padding-bottom: 20px;
   }
+  .others-no-container {
+    margin-top: -6px;
+  }
 }
 
 @media only screen and (max-width: 468px) {
   .schedule-title {
     margin-top: 10px;
+    margin-left: 10px;
     font-size: 150%;
   }
   .event-date{
@@ -482,7 +520,7 @@ body, html {
     padding-left: 5px;
   }
   .event-detail{
-    font-size: 90%;
+    font-size: 100%;
   }
   .event-var{
     padding-left: 0px;
@@ -490,5 +528,8 @@ body, html {
   }
   .event-separator{
     padding-left: 7px;
+  }
+  .others-no-container {
+    margin-left: -6px;
   }
 }
