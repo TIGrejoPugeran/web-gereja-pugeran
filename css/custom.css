@@ -209,6 +209,36 @@ body, html {
   margin-bottom: 10px;
 }
 
+.mass-event-title {
+  color: #E4C686;
+  font-size: 160%;
+  font-weight: bold;
+  text-align: center;
+}
+.mass-event-hr {
+  border-top: 2px solid;
+  border-color: #E4C686;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.mass-event-desc {
+  margin-top: 30px;
+  margin-bottom: 7px;
+}
+.mass-event-place {
+  color: brown;
+}
+.mass-event-date {
+  color: brown;
+  text-align: right;
+  margin-top: 15px;
+}
+.mass-event-border {
+  border-top: 2px solid;
+  border-color: brown;
+}
+
+
 /* Info Paroki Pengumuman CSS */
 
 .announcement-title-container {
@@ -322,16 +352,13 @@ body, html {
 .others {
   background: rgba(255, 255, 204, 1);
   border-radius: 1px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px;
 }
 
 .others-ii {
   background: rgba(255, 255, 204, 1);
   border-radius: 1px;
-  padding-top: 12px;
-  padding-left: 15px;
-  padding-bottom: 12px;
+  padding: 12px 12px 12px 30px;
 }
 
 .others-no-container {
@@ -505,6 +532,9 @@ body, html {
   .others-no-container {
     margin-top: -6px;
   }
+  .others-ii {
+    padding: 12px 12px 12px 20px;
+  }
 }
 
 @media only screen and (max-width: 468px) {
@@ -531,5 +561,8 @@ body, html {
   }
   .others-no-container {
     margin-left: -6px;
+  }
+  .others-ii {
+    padding: 12px 12px 12px 20px;
   }
 }
